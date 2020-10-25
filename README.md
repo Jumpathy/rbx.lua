@@ -23,12 +23,11 @@ You will require some basic programming experience to begin with this system, bu
 ## Example
 ```lua
 local roblox = require("rbx.lua");
+local client = roblox.client();
 
-roblox.newFromCookie("ROBLOSECURITY HERE",function(success,client)
-    if(success) then 
-        client.functions.resolveToUsername(client.userId,function(username)
-            print(username,"authorized");
-        end)
-    end
+client:on("ready",function()
+   print("ready to go!");
 end)
+
+client:run(".ROBLOSECURITY HERE");
 ```
