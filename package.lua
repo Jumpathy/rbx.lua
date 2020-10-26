@@ -1,7 +1,7 @@
 -- DO NOT DELETE
 
 return {
-	name = "iiToxicity/rbx.lua",
+    name = "iiToxicity/rbx.lua",
     version = "1.0.1";
 	dependencies = {
 		"creationix/coro-http@3.1.0",
