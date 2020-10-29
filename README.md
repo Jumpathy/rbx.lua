@@ -12,6 +12,9 @@ You will require some basic programming experience to begin with this system, bu
 ## Requirements
 - [**Luvit**](https://luvit.io/install.html)
 
+## Documentation
+- [Github Wiki](https://github.com/iiToxicity/rbx.lua/wiki)
+
 ## Community (or support if required)
 - [**Discord server**](https://discord.gg/5ssrpQc)
 
