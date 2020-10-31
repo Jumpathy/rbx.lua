@@ -11,7 +11,7 @@ DO NOT DELETE - THIS IS THE PACKAGE FILE AND IT'S VERY IMPORTANT.
 
 return {
     name = "iiToxicity/rbx.lua",
-    version = "1.0.1";
+    version = "1.0.2";
     dependencies = {
 		"creationix/coro-http@3.1.0",
 		"creationix/coro-websocket@3.1.0",
